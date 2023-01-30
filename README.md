@@ -1,4 +1,4 @@
-# node 18.13.0
+# Template next @reduxjs/toolkit sass
 ## Getting Started
 
 First, run the development server:
