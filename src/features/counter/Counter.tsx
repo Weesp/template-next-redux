@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, FC } from 'react'
 
 import { useAppSelector, useAppDispatch } from '@/redux/hooks'
 import {
@@ -11,7 +11,7 @@ import {
 } from './counterSlice'
 import styles from './Counter.module.scss'
 
-function Counter() {
+export const Counter: FC = () => {
   const dispatch = useAppDispatch()
   const count = useAppSelector(selectCount)
   const [incrementAmount, setIncrementAmount] = useState('2')
@@ -66,5 +66,3 @@ function Counter() {
     </div>
   )
 }
-
-export default Counter
