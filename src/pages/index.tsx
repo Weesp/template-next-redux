@@ -1,8 +1,8 @@
-import type { NextPage } from "next"
-import Head from "next/head"
+import type { NextPage } from "next";
+import Head from "next/head";
 
-import { Counter } from "@/features/counter/Counter"
-import styles from "./index.module.scss"
+import { Counter } from "@/features/counter/Counter";
+import styles from "./index.module.scss";
 
 const IndexPage: NextPage = () => {
   return (
@@ -57,7 +57,7 @@ const IndexPage: NextPage = () => {
         </span>
       </header>
     </div>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
